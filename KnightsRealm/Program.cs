@@ -21,6 +21,8 @@ using System.Runtime.InteropServices.ComTypes;
 // MADE BY: MIKE FERNANDEZ
 // STARTED IN 5/30/20
 
+// update: tons of redundant code, an utter piece of shit. Only intro is made and in fucking immediate mode/fixed function pipeline with an evident
+// obscure knowledge on programming and terrible negligent mistakes. 
 
 namespace ConsoleApp2
 {
@@ -30,6 +32,7 @@ namespace ConsoleApp2
         // Purpose: creates some variables that are specific to the window creation, and display attributes such as framerate, resolution etc...
         // stored in arrays that will be changed later if necessary by the launcher for user desired variations in those particular display variables
         //-------------------------------------------------------------------------------------------------------------------------------------    
+        // doesn't make sense above, too lazy to fix all the outdated comments, don't care because this code is shit and doesn't do anything particuarly fancy 
         public double x = 25;
         public double y = 25;
         public double z = -20;
